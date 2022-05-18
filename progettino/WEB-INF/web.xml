@@ -1,0 +1,34 @@
+<web-app>
+	<display-name>
+		Nome applicazione
+	</display-name>
+	<description>
+	Questa app manda un messaggio di saluto
+	</description>
+	<welcome-file-list>
+		<welcome-file>
+		index.html
+		</welcome-file>
+	</welcome-file-list>
+
+	
+
+    <servlet>
+		<servlet-name> 
+			nomeservlet
+		</servlet-name>
+
+		<servlet-class>
+			NomeClasseServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> 
+			nomeservlet
+		</servlet-name>
+		<url-pattern>
+			/urlServlet
+		</url-pattern>
+	</servlet-mapping>
+
+</web-app>
